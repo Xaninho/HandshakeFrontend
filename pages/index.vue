@@ -1,7 +1,6 @@
 <template>
-  <Nav />
   <main class="container">
-    <i class="fa-duotone fa-handshake bigIcon"></i>
+    <img src="../assets/images/business_deal.svg" class="welcomeImage" alt="Page not Found"/>
     <h1>Welcome to Handshake CRM</h1>
   </main>
 </template>
@@ -15,4 +14,14 @@
 .bigIcon {
   font-size: 150px;
 }
+
+.welcomeImage {
+  width: 20%;
+  height: 20%;
+}
+
+h1{
+  margin-top: 50px;
+}
+
 </style>

@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     },
     css: [
       '@/assets/font-awesome/css/all.css',
-      '@/assets/css/global.css'
-    ]
+      '@/assets/css/global.css',
+      'mdi/css/materialdesignicons.min.css',
+      'vuetify/lib/styles/main.sass'
+    ],
+    build: {
+      transpile: ['vuetify'],
+    },
 })

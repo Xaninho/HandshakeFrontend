@@ -1,3 +1,13 @@
 .fa-duotone {
     color: #37ce8f;
 }
+
+.drawer-logo {
+    margin: 20px auto 20px auto;
+    width: 100px;
+}
+
+.drawer-icon {
+    margin-right: 10px;
+    color: rgb(0 0 0 / 54%);
+}

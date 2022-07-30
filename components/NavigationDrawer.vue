@@ -27,9 +27,9 @@ export default {
             items: [
                 { title: 'Home', icon: 'mdi-view-dashboard' },
                 { title: 'Clients', icon: 'mdi-account-group' },
-                { title: 'Products', icon: 'mdi-home' },
-                { title: 'Orders', icon: 'mdi-home' },
-                { title: 'System Setting', icon: 'mdi-home' }
+                { title: 'Products', icon: 'mdi-cog' },
+                { title: 'Orders', icon: 'mdi-cog-sync' },
+                { title: 'System Setting', icon: 'mdi-view-dashboard' }
             ],
         }
     }
